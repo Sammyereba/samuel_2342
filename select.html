@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="testing.html" method="post" target="_blank">
+    <label for="expirience"> expirience</label><br>
+    <select name="expirience" id="expirience">
+        <option value="0">choose your expirience</option>
+        <option value="1"> man</option>
+        <option value="2">woman</option>
+        <option value="3">girl</option>
+    </select>
+    <label for="expirience"> rate your expirience levwl (0 - 10)</label>
+    <input type="range" name="expirience" id="expirience" min="0"
+    max="10" value="0" oninput="this.nextElementSibling.value=this.value">
+    <output> 0</output>
+    <button type="submit"> Submit</button>
+    </form>
+    
+</body>
+</html>

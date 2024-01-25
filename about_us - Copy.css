@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0, 1), rgba(0,0, 0, 0.6), rgba(0,0,0, 0.4)), url(bg2.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+
+    
+}
+header{
+
+    
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+li{
+   list-style: none;
+   display: inline; 
+   margin-left: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: rgb(129, 12, 47);
+}
+.art1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+.art1 h1{
+    font-weight: bolder;
+    font-size: 80px;
+}
+.art2{
+    background-image:linear-gradient( rgba(0,0, 0, 0.6), rgba(0,0,0, 0.4)), url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding-top:  20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.asub1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.nice h1{
+    font-size: 50px;
+}
+.leader{
+    
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 0,3s ease-in-out;
+    
+    padding: 10px;
+}
+.leader img{
+    width: 100%;
+    /* display: inline; */
+}
+#manager{
+    
+    
+    /* display: flex; */
+    padding: 20px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#nike{
+    margin-top:10 ;
+    margin-bottom:10;
+}
+.grid1{
+    border-radius: 30px;
+}
+.grid2{
+    border-radius: 30px;
+}
+.grid3{
+    border-radius: 30px;
+    
+}
+.leader :hover{
+    transform: scale(1.03);
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(250, 250, 250);
+    transition: transform 0,3s ease-in-out;
+    margin-top: 1px;
+   
+}
+
+img:hover{
+    transform: scale(1.03);
+}

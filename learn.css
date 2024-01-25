@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+div{
+    background-color: rgb(154, 227, 7);
+    width: 200px;
+    height: 400px;
+    display: inline-flex;
+    padding: 7px;
+    margin: 20px;
+}
+.aside{
+    
+    
+    background-color: bisque;
+    width: 90%;
+    padding:  10px;
+    margin: 30%px;
+}
